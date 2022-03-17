@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Copy of Python1.ipynb",
+      "provenance": [],
+      "collapsed_sections": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "85_PkM10BF0H",
+        "outputId": "411d8047-0bb9-40b4-c07a-df52cc68858c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Addition= 11.125309999999999\n",
+            "Subtraction= -4.83889\n",
+            "Multiplication= 25.089416541\n",
+            "Division= 0.39378233798123297\n",
+            "Power= 9334.352472491415\n",
+            "Modulus= 3.14321\n",
+            "Floor Division= 0.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "\n",
+        "\n",
+        "a=3.14321\n",
+        "b=7.9821\n",
+        "print(\"Addition=\",a+b)\n",
+        "print(\"Subtraction=\",a-b)\n",
+        "print(\"Multiplication=\",a*b)\n",
+        "print(\"Division=\",a/b)\n",
+        "print(\"Power=\",a**b)\n",
+        "print(\"Modulus=\",a%b)\n",
+        "print(\"Floor Division=\",a//b)"
+      ]
+    }
+  ]
+}
