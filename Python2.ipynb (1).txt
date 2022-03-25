@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Python2.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ga3GCzFoUXk9",
+        "outputId": "d1745276-d8c2-41ee-cf63-6bbf7e45434f"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Rutuja Nikam\n",
+            "2\n",
+            "312.0\n",
+            "(2.3+0j)\n",
+            "(312+0j)\n"
+          ]
+        }
+      ],
+      "source": [
+        "Name=\"Rutuja\"\n",
+        "Surname=\"Nikam\"\n",
+        "print(Name+\" \"+Surname)\n",
+        "\n",
+        "a=2.3\n",
+        "x=int(a)\n",
+        "print(x)\n",
+        "\n",
+        "b=312\n",
+        "y=float(b)\n",
+        "print(y)\n",
+        "\n",
+        "p=complex(a)\n",
+        "print(p)\n",
+        "\n",
+        "q=complex(b)\n",
+        "print(q)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"Rutuja\"\n",
+        "age=20\n",
+        "Class=\"T.Y.BSc\"\n",
+        "College=\"SP\"\n",
+        "myorder=\"My name is {a} I'm {b} years old and i'm studying in {c} Class in {d} college \"\n",
+        "print(myorder.format(a=name,b=age,c=Class,d=College))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Oaq3KXo8jdws",
+        "outputId": "fe2681a9-0312-4aff-9b15-557d65d10118"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is Rutuja I'm 20 years old and i'm studying in T.Y.BSc Class in SP college \n"
+          ]
+        }
+      ]
+    }
+  ]
+}
